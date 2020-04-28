@@ -6,7 +6,6 @@ body{margin: 0;}
     display: flex;
 }
 
-
 #main{padding: 24px;}
 #main button{padding: 8px; background-color: #58a; color: #fff; border: solid 1px #58a; cursor: pointer;}
 
