@@ -1,0 +1,36 @@
+body{margin: 0;}
+.thecodeninja{
+    background-color: #eee;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    display: flex;
+}
+
+
+#main{padding: 24px;}
+#main button{padding: 8px; background-color: #58a; color: #fff; border: solid 1px #58a; cursor: pointer;}
+
+.sidenav{
+    background-color: #333;
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #eee;
+    display: block;
+}
+
+.sidenav a:hover{color: #fff;}
+
+#content{
+    transition: .5s;
+}
