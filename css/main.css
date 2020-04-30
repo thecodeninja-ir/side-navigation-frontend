@@ -1,8 +1,11 @@
-body{margin: 0;}
+body{
+    background-color: #ccc;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+}
 .thecodeninja{
     background-color: #eee;
     box-shadow: 0 8px 6px -6px black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
     display: flex;
 }
 
@@ -12,24 +15,27 @@ body{margin: 0;}
 .sidenav{
     background-color: #333;
     height: 100%;
-    width: 0px;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0px;
     left: 0px;
     overflow: hidden;
     transition: .5s;
+    opacity: 90%;
 }
+
 .sidenav a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 24px;
     color: #eee;
+    font-size: 24px;
     display: block;
 }
 
-.sidenav a:hover{color: #fff;}
-
-#content{
-    transition: .5s;
+.sidenav a:hover{
+    color: #fff;
+    text-decoration: underline;
 }
+
+#content{transition: .5s;}
